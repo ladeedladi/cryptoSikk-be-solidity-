@@ -6,8 +6,8 @@ module.exports = {
   solidity: "0.8.4",
   networks:{
     ropsten:{
-       url:"url",
-       accounts:["accounts"]
+       url:process.env.url,
+       accounts:[process.env.Account]
     }
   }
 };
